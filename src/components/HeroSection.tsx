@@ -27,7 +27,7 @@ const HeroSection = ({ onSearch }: HeroSectionProps) => {
       <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in">
         {/* Hero Content */}
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-          Download Previous Year
+          Download Previous Year Questions Papers.
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">

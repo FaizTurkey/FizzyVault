@@ -19,6 +19,7 @@ const AboutSection = () => {
               <img className="rounded-full" src="Faiz.jpeg" alt="me" />
             </div>
             <h3 className="text-xl font-semibold text-foreground mb-2">Muhammad Faiz</h3>
+            <p className="text-muted-foreground font-bold mb-1">Second Year Student</p>
             <p className="text-muted-foreground">
               To Provide Easy Access To Previous Year Question Papers for Students.
             </p>
