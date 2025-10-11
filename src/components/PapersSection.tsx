@@ -21,7 +21,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
   const papers: Paper[] = [
     {
       id: "1",
-      title: "BTech 1st Year 1st Sem",
+      title: "BTech 1st Year",
       subject: "All Papers",
       year: "2024",
       semester: "Full Semester",
