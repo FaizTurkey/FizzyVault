@@ -1,23 +1,15 @@
 import { BookOpen } from "lucide-react";
 
 const Footer = () => {
-  const resourceLinks = [
-    { name: "NPTEL", url: "https://nptel.ac.in" },
-    { name: "SWAYAM", url: "https://swayam.gov.in" },
-    { name: "MIT OpenCourseWare", url: "https://ocw.mit.edu" },
-    { name: "Khan Academy", url: "https://www.khanacademy.org" },
-    { name: "Coursera", url: "https://www.coursera.org" },
-  ];
-
   return (
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
-          {/* Brand */}
+          
           <div>
             <div className="flex items-center gap-2 mb-4">
               <BookOpen className="h-6 w-6 text-primary" />
-              <span className="text-xl font-semibold text-foreground">PaperHub</span>
+              <span className="text-xl font-semibold text-foreground">FizzyVault</span>
             </div>
             <p className="text-muted-foreground text-sm">
               Your one-stop destination for previous year question papers and study materials.
@@ -38,28 +30,10 @@ const Footer = () => {
                 Contact
               </a>
             </div>
-          </div>
-
-          {/* Resources */}
-          <div>
-            <h3 className="font-semibold text-foreground mb-4">Study Resources</h3>
-            <div className="space-y-2">
-              {resourceLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-muted-foreground hover:text-primary transition-smooth text-sm"
-                >
-                  {link.name}
-                </a>
-              ))}
-            </div>
-          </div>
+          </div>      
         </div>
 
-        {/* Bottom Bar */}
+      
         <div className="pt-8 border-t border-border text-center">
           <p className="text-muted-foreground text-sm">
             © 2025 Faiz Turkey. All rights reserved. Made with ❤️ for students.

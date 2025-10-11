@@ -1,4 +1,4 @@
-import { Mail, MessageSquare, Github } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
@@ -16,25 +16,26 @@ const ContactSection = () => {
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <a
-            href="mailto:contact@paperhub.com"
+            href="faizturkey2019@gmail.com"
             className="p-6 rounded-2xl bg-card border border-border shadow-soft hover:shadow-hover transition-smooth group hover:-translate-y-1"
           >
             <Mail className="h-8 w-8 text-primary mx-auto mb-4 group-hover:scale-110 transition-smooth" />
             <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
-            <p className="text-sm text-muted-foreground">contact@paperhub.com</p>
+            <p className="text-sm text-muted-foreground">faizturkey2019@gmail.com</p>
           </a>
 
           <a
-            href="#"
+            href="https://www.linkedin.com/in/mohdfaiz12"
             className="p-6 rounded-2xl bg-card border border-border shadow-soft hover:shadow-hover transition-smooth group hover:-translate-y-1"
           >
-            <MessageSquare className="h-8 w-8 text-primary mx-auto mb-4 group-hover:scale-110 transition-smooth" />
-            <h3 className="text-lg font-semibold text-foreground mb-2">Discord</h3>
-            <p className="text-sm text-muted-foreground">Join our community</p>
+            <Linkedin className="h-8 w-8 text-primary mx-auto mb-4 group-hover:scale-110 transition-smooth"/>
+            
+            <h3 className="text-lg font-semibold text-foreground mb-2">LinkedIn</h3>
+            <p className="text-sm text-muted-foreground">Follow Me on LinkedIn</p>
           </a>
 
           <a
-            href="#"
+            href="https://github.com/FaizTurkey"
             className="p-6 rounded-2xl bg-card border border-border shadow-soft hover:shadow-hover transition-smooth group hover:-translate-y-1"
           >
             <Github className="h-8 w-8 text-primary mx-auto mb-4 group-hover:scale-110 transition-smooth" />
@@ -48,10 +49,10 @@ const ContactSection = () => {
             Want to contribute papers?
           </h3>
           <p className="text-muted-foreground mb-6">
-            Help us grow our collection by sharing question papers from your university
+            Help us grow our collection by sharing question papers Whatsapp Me.
           </p>
           <Button className="gradient-hero text-primary-foreground font-medium">
-            Submit Papers
+            7017433962
           </Button>
         </div>
       </div>

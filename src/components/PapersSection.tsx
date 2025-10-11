@@ -18,62 +18,61 @@ interface PapersSectionProps {
 }
 
 const PapersSection = ({ searchQuery }: PapersSectionProps) => {
-  // Mock data - Replace with actual papers from /papers folder
   const papers: Paper[] = [
     {
       id: "1",
-      title: "Computer Networks Final Exam",
-      subject: "Computer Networks",
-      year: "2023",
-      semester: "5th Semester",
+      title: "BTech 1st Year 1st Sem",
+      subject: "All Papers",
+      year: "2024",
+      semester: "Full Semester",
       department: "CSE",
-      fileUrl: "/papers/cse-cn-2023.pdf"
+      fileUrl: "/papers/CT's-1st-Sem-FaizTurkey.pdf"
     },
     {
       id: "2",
-      title: "Data Structures Mid Term",
-      subject: "Data Structures",
-      year: "2023",
+      title: "BTech 2nd Year 3rd Sem",
+      subject: "All Papers",
+      year: "2025",
       semester: "3rd Semester",
       department: "CSE",
-      fileUrl: "/papers/cse-ds-2023.pdf"
+      fileUrl: "/papers/BTech-3rd.pdf"
     },
-    {
-      id: "3",
-      title: "Engineering Mathematics II",
-      subject: "Mathematics",
-      year: "2022",
-      semester: "2nd Semester",
-      department: "All Branches",
-      fileUrl: "/papers/math-2022.pdf"
-    },
-    {
-      id: "4",
-      title: "Digital Electronics",
-      subject: "Digital Electronics",
-      year: "2024",
-      semester: "4th Semester",
-      department: "ECE",
-      fileUrl: "/papers/ece-de-2024.pdf"
-    },
-    {
-      id: "5",
-      title: "Physics I Final Exam",
-      subject: "Physics",
-      year: "2024",
-      semester: "1st Semester",
-      department: "All Branches",
-      fileUrl: "/papers/physics-2024.pdf"
-    },
-    {
-      id: "6",
-      title: "Operating Systems",
-      subject: "Operating Systems",
-      year: "2023",
-      semester: "5th Semester",
-      department: "CSE",
-      fileUrl: "/papers/cse-os-2023.pdf"
-    }
+    // {
+    //   id: "3",
+    //   title: "Engineering Mathematics II",
+    //   subject: "Mathematics",
+    //   year: "2022",
+    //   semester: "2nd Semester",
+    //   department: "All Branches",
+    //   fileUrl: "/papers/math-2022.pdf"
+    // },
+    // {
+    //   id: "4",
+    //   title: "Digital Electronics",
+    //   subject: "Digital Electronics",
+    //   year: "2024",
+    //   semester: "4th Semester",
+    //   department: "ECE",
+    //   fileUrl: "/papers/ece-de-2024.pdf"
+    // },
+    // {
+    //   id: "5",
+    //   title: "Physics I Final Exam",
+    //   subject: "Physics",
+    //   year: "2024",
+    //   semester: "1st Semester",
+    //   department: "All Branches",
+    //   fileUrl: "/papers/physics-2024.pdf"
+    // },
+    // {
+    //   id: "6",
+    //   title: "Operating Systems",
+    //   subject: "Operating Systems",
+    //   year: "2023",
+    //   semester: "5th Semester",
+    //   department: "CSE",
+    //   fileUrl: "/papers/cse-os-2023.pdf"
+    // }
   ];
 
   const filteredPapers = papers.filter(paper => {
@@ -87,13 +86,16 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
     );
   });
 
-  const handleDownload = (paper: Paper) => {
-    toast.success(`Downloading ${paper.title}`, {
-      description: "Your download will start shortly"
-    });
-    // In production, this would trigger actual download
-    // window.open(paper.fileUrl, '_blank');
+  const handleDownload = (fileUrl:string , title:string) =>{
+    const link = document.createElement("a");
+    const filePath = fileUrl.startsWith("/") ? fileUrl : `/papers/${fileUrl}`;
+    link.href = filePath;
+    link.setAttribute("download",title || "paper.pdf");
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
+
 
   return (
     <section className="py-20 px-4 bg-background">
@@ -149,7 +151,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
                     </div>
                   </div>
                   <Button 
-                    onClick={() => handleDownload(paper)}
+                    onClick={() => handleDownload(paper.fileUrl,paper.title)}
                     className="w-full gradient-hero text-primary-foreground font-medium group/btn"
                   >
                     <Download className="h-4 w-4 mr-2 group-hover/btn:animate-bounce" />
