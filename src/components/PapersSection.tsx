@@ -21,15 +21,24 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
   const papers: Paper[] = [
     {
       id: "1",
-      title: "BTech 1st Year",
+      title: "BTech 1st Year 1st Sem",
       subject: "All Papers",
       year: "2024",
-      semester: "Full Semester",
+      semester: "1st Semester",
       department: "CSE",
       fileUrl: "/papers/CT's-1st-Sem-FaizTurkey.pdf"
     },
     {
       id: "2",
+      title: "BTech 1st Year 2nd Sem",
+      subject: "All Papers",
+      year: "2024",
+      semester: "2nd Semester",
+      department: "CSE",
+      fileUrl: "/papers/CT's-2-Semester-FaizTurkey.pdf"
+    },
+    {
+      id: "3",
       title: "BTech 2nd Year 3rd Sem",
       subject: "All Papers",
       year: "2025",
@@ -37,15 +46,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       department: "CSE",
       fileUrl: "/papers/BTech-3rd.pdf"
     },
-    // {
-    //   id: "3",
-    //   title: "Engineering Mathematics II",
-    //   subject: "Mathematics",
-    //   year: "2022",
-    //   semester: "2nd Semester",
-    //   department: "All Branches",
-    //   fileUrl: "/papers/math-2022.pdf"
-    // },
+    
     // {
     //   id: "4",
     //   title: "Digital Electronics",
