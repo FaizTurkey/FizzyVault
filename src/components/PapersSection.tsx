@@ -47,15 +47,15 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       fileUrl: "/papers/BTech-3rd.pdf"
     },
     
-    // {
-    //   id: "4",
-    //   title: "Digital Electronics",
-    //   subject: "Digital Electronics",
-    //   year: "2024",
-    //   semester: "4th Semester",
-    //   department: "ECE",
-    //   fileUrl: "/papers/ece-de-2024.pdf"
-    // },
+    {
+      id: "4",
+      title: "BCA 1st Year 1st Sem",
+      subject: "All Papers",
+      year: "2025",
+      semester: "1st Semester",
+      department: "Management",
+      fileUrl: "/papers/BCA-1st-Sem.pdf"
+    },
     // {
     //   id: "5",
     //   title: "Physics I Final Exam",
