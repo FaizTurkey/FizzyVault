@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-xl font-semibold text-foreground">FizzyVault</span>
             </div>
             <p className="text-muted-foreground text-sm">
-              Your one-stop destination for previous year question papers and study materials.
+              Your one-stop destination for previous year CT's papers and study materials.
             </p>
           </div>
 
