@@ -27,12 +27,13 @@ const HeroSection = ({ onSearch }: HeroSectionProps) => {
       <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in">
         {/* Hero Content */}
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-          Download Previous Year Questions Papers.
+          Download Previous Year CT's Papers And Notes In Just One Click.
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
           Access Previous Year Question Papers. 
-          Prepare Better, Score <b>Higher.</b>  (Later I Will Add Notes Section Also)
+          Prepare Better, Score <b>Higher.</b>  (Only Click One Time On Download Button ) <br />
+          Downloading....Start Automatically
         </p>   
       </div>
     </section>
