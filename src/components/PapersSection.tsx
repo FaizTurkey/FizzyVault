@@ -49,7 +49,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
     {
       id: "4",
       title: "BTech 1st Year 1st Sem",
-      subject: "All Papers",
+      subject: "All Papers (Chemistry Group)",
       year: "2024",
       semester: "1st Semester",
       department: "CSE",
@@ -58,7 +58,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
     {
       id: "5",
       title: "BTech 1st Year 2nd Sem",
-      subject: "All Papers",
+      subject: "All Papers (Physics Group)",
       year: "2024",
       semester: "2nd Semester",
       department: "CSE",
