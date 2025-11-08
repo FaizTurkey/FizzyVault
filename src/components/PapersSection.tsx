@@ -21,33 +21,6 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
   const papers: Paper[] = [
     {
       id: "1",
-      title: "BTech 1st Year Electronic Notes",
-      subject: "All Units",
-      year: "2024",
-      semester: "1st Semester",
-      department: "ASH",
-      fileUrl: "/papers/Electronic1SemFaizTurkey.pdf"
-    },
-   {
-      id: "2",
-      title: "BTech 1st Year Mechanical Notes",
-      subject: "All Units",
-      year: "2024",
-      semester: "1st Semester",
-      department: "ASH",
-      fileUrl: "/papers/Mechanical1semFaizTurkey.pdf"
-    },
-    {
-      id: "3",
-      title: "BTech 1st Year SoftSkill Notes",
-      subject: "All Units",
-      year: "2024",
-      semester: "1st Semester",
-      department: "ASH",
-      fileUrl: "/papers/SoftSkill1semFaizTurkey.pdf"
-    },
-    {
-      id: "4",
       title: "BTech 1st Year 1st Sem",
       subject: "All Papers (Chemistry Group)",
       year: "2024",
@@ -56,7 +29,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       fileUrl: "/papers/CT's-1st-Sem-FaizTurkey.pdf"
     },
     {
-      id: "5",
+      id: "2",
       title: "BTech 1st Year 2nd Sem",
       subject: "All Papers (Physics Group)",
       year: "2024",
@@ -65,7 +38,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       fileUrl: "/papers/CT's-2-Semester-FaizTurkey.pdf"
     },
     {
-      id: "6",
+      id: "3",
       title: "BTech 2nd Year 3rd Sem",
       subject: "All Papers",
       year: "2025",
@@ -121,12 +94,12 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12 animate-slide-up">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Available Question Papers And Notes..
+            Available Question Papers..
           </h2>
           <p className="text-muted-foreground text-lg">
             {searchQuery 
               ? `Showing results for "${searchQuery}"`
-              : "Browse our collection of papers And Notes"
+              : "Browse our collection of papers.."
             }
           </p>
         </div>
