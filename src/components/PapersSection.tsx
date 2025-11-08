@@ -25,7 +25,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       subject: "All Papers (Chemistry Group)",
       year: "2024",
       semester: "1st Semester",
-      department: "CSE",
+      department: "ASH",
       fileUrl: "/papers/CT's-1st-Sem-FaizTurkey.pdf"
     },
     {
@@ -34,7 +34,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       subject: "All Papers (Physics Group)",
       year: "2024",
       semester: "2nd Semester",
-      department: "CSE",
+      department: "ASH",
       fileUrl: "/papers/CT's-2-Semester-FaizTurkey.pdf"
     },
     {
