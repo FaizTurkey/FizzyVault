@@ -47,15 +47,78 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       fileUrl: "/papers/BTech-3rd.pdf"
     },
     
-    // {
-    //   id: "5",
-    //   title: "Physics I Final Exam",
-    //   subject: "Physics",
-    //   year: "2024",
-    //   semester: "1st Semester",
-    //   department: "All Branches",
-    //   fileUrl: "/papers/physics-2024.pdf"
-    // },
+    {
+      id: "4",
+      title: "BTech 1st year Maths I External",
+      subject: "Maths I",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/MATHEMATICS-I_Faiz.pdf"
+    },
+    {
+      id: "5",
+      title: "BTech 1st year Chemistry External",
+      subject: "Chemistry",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/CHEMISTRY_Faiz.pdf"
+    },
+    {
+      id: "6",
+      title: "BTech 1st year Physics External",
+      subject: "Physics",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/PHYSICS_Faiz.pdf"
+    },
+    {
+      id: "7",
+      title: "BTech 1st year Electrical External",
+      subject: "Electrical",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/ELECTRICAL_Faiz.pdf"
+    },
+    {
+      id: "8",
+      title: "BTech 1st year Electronic External",
+      subject: "Electronic",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/ELECTRONICS_Faiz.pdf"
+    },
+    {
+      id: "9",
+      title: "BTech 1st year PPS (C) External",
+      subject: "PPS",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/PPS_Faiz.pdf"
+    },
+    {
+      id: "10",
+      title: "BTech 1st year Soft Skill External",
+      subject: "Soft Skill",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/SOFT_SKILLS_Faiz.pdf"
+    },
+    {
+      id: "11",
+      title: "BTech 1st year Ecology External",
+      subject: "Ecology",
+      year: "2023-25",
+      semester: "1st Semester",
+      department: "ASH",
+      fileUrl: "/papers/Ecology_Faiz.pdf"
+    },
     // {
     //   id: "6",
     //   title: "Operating Systems",

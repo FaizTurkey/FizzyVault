@@ -27,13 +27,15 @@ const HeroSection = ({ onSearch }: HeroSectionProps) => {
       <div className="relative z-10 max-w-4xl mx-auto text-center animate-fade-in">
         {/* Hero Content */}
         <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
-          Download Previous Year CT's Papers In Just One Click.
+          Download Previous Year CT's And External Papers In Just One Click.
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
           Access Previous Year Question Papers. 
           Prepare Better, Score <b>Higher.</b>  (Only Click One Time On Download Button ) <br />
-          Downloading....Start Automatically
+          Downloading....Start Automatically. <br />
+          <b>If You're Facing Any Issue In Downloading Contact Me </b> <br />
+          <b>(Number Available In Contact Section)</b>
         </p>   
       </div>
     </section>
