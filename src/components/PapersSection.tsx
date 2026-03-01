@@ -37,14 +37,24 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       department: "ASH",
       fileUrl: "/papers/CT's-2-Semester-FaizTurkey.pdf"
     },
+    
     {
       id: "3",
-      title: "BTech 2nd Year 3rd Sem",
+      title: "BTech 3rd Sem CT's",
       subject: "All Papers",
       year: "2025",
       semester: "3rd Semester",
       department: "CSE",
       fileUrl: "/papers/BTech-3rd.pdf"
+    },
+    {
+      id: "6",
+      title: "BTech 4th Sem CT-1st",
+      subject: "All Papers",
+      year: "2023-24",
+      semester: "4th Semester",
+      department: "CSE",
+      fileUrl: "/papers/Sem4CTFaiz.pdf"
     },
     
     {
@@ -119,15 +129,7 @@ const PapersSection = ({ searchQuery }: PapersSectionProps) => {
       department: "ASH",
       fileUrl: "/papers/Ecology_Faiz.pdf"
     },
-    // {
-    //   id: "6",
-    //   title: "Operating Systems",
-    //   subject: "Operating Systems",
-    //   year: "2023",
-    //   semester: "5th Semester",
-    //   department: "CSE",
-    //   fileUrl: "/papers/cse-os-2023.pdf"
-    // }
+    
   ];
 
   const filteredPapers = papers.filter(paper => {
